@@ -9,7 +9,7 @@ Example:<br>
 <pre>
 /usr/sbin/monit_boxcar_push_ios.py fail webserver ssl
 /usr/sbin/monit_boxcar_push_ios.py recovery webserver ssl
-</pre><br>
+</pre>
 Example Monit config:<br>
 <pre>
 check host webserver with address www.mywebserver.com
