@@ -3,7 +3,7 @@ Small Python Script that pushes Monit monitoring alarms to iOS via Boxcar.
 
 Just put your Boxcar API Key to the ACCESS_KEY Variable.<br>
 In Monit configuration exec the Script with Arguments \<fail/recovery> \<servername> \<service>. Use fail for failed Services and recovery for recovering a Service.<br>
-Optional can you modify the TAG variable to put the Boxcar Tag you want in.<br>
+Optional can you modify the TAG variable to put the Boxcar Tag you want.<br>
 
 Example:<br>
 <pre>
