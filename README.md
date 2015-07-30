@@ -14,7 +14,7 @@ Example Monit config:<br>
 <pre>
 check host webserver with address www.mywebserver.com
 	if failed ping
-		then exec "/usr/sbin/boxcar_client.py fail google ping" 
+		then exec "/usr/sbin/monit_boxcar_push_ios.py fail google ping" 
 	else if succeeded
-		then exec "/usr/sbin/boxcar_client.py recovery google ping"
+		then exec "/usr/sbin/monit_boxcar_push_ios.py recovery google ping"
 </pre>
