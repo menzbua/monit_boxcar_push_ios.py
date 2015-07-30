@@ -6,9 +6,10 @@ In Monit configuration exec the Script with Arguments <fail/recovery> <servernam
 Optional can you modify the TAG variable to put the Boxcar Tag you want in.<br>
 
 Example:<br>
-/usr/sbin/monit_boxcar_push_ios.py fail webserver ssl<br>
-/usr/sbin/monit_boxcar_push_ios.py recovery webserver ssl<br>
-
+<pre>
+/usr/sbin/monit_boxcar_push_ios.py fail webserver ssl
+/usr/sbin/monit_boxcar_push_ios.py recovery webserver ssl
+</pre><br>
 Example Monit config:<br>
 <pre>
 check host webserver with address www.mywebserver.com
