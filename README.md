@@ -10,10 +10,10 @@ Example:<br>
 /usr/sbin/monit_boxcar_push_ios.py recovery webserver ssl<br>
 
 Example Monit config:<br>
-<code>
+<pre>
 check host webserver with address www.mywebserver.com
 	if failed ping
 		then exec "/usr/sbin/boxcar_client.py fail google ping" 
 	else if succeeded
 		then exec "/usr/sbin/boxcar_client.py recovery google ping"
-</code>
+</pre>
